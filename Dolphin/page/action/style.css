@@ -1,0 +1,40 @@
+.main{
+    width: 80vw;
+    margin: 0 auto 4vw;
+}
+.main-title{
+    margin: 2vw 0;
+    font-size: 2vw;
+}
+
+.main-item{
+    display: flex;
+    width: 70vw;
+    height: 16vw;
+    margin: 4vw auto 0;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.main-item-pic{
+    flex: 2;
+    flex-shrink: 0;
+    height: 100%;
+}
+.main-item-cont{
+    flex: 3;
+    height: 100%;
+    padding: 2vw;
+    background-color: #333;
+    color: #fff;
+}
+.main-item-cont-title{
+    font-size: 2vw;
+}
+.main-item-cont-desc{
+    margin-top: 1vw;
+    text-indent: 2.2vw;
+    font-size: 1.1vw;
+}
+.main-item-cont-desc:hover{
+    text-decoration: underline;
+}

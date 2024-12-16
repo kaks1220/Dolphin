@@ -1,0 +1,27 @@
+.main{
+    width: 80vw;
+    margin: 0 auto 6vw;
+}
+.main-title{
+    margin: 2vw 0;
+    font-size: 2vw;
+}
+
+.main-assoc{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4vw;
+}
+.main-assoc-item{
+    width: 16vw;
+}
+.main-assoc-item-logo{
+    width: max;
+    height: max;
+}
+.main-assoc-item-name{
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    text-align: center;
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+.main{
+    width: 80%;
+    margin: 0 auto 4vw;
+}
+.main-title{
+    margin: 2vw 0;
+    font-size: 2vw;
+}
+.main-logo{
+    width: 80%;
+    height: 30vw;
+    margin: 0 auto;
+}
+.main-purpose{
+    width: 90%;
+    padding: 2vw;
+    margin: 2vw auto;
+    background-color: #444;
+}
+.main-purpose-item{
+    text-indent: 2.2vw;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    margin: 1vw 0;
+    color: white;
+}

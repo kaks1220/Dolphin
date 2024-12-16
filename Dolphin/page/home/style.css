@@ -1,0 +1,62 @@
+.main{
+    width: 90vw;
+    margin: 4vw auto 4vw;
+}
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    height: 30vw;
+}
+.main-top-left{
+    width: 59vw;
+    height: 100%;
+    overflow: hidden;
+}
+.main-top-left-pics{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.main-top-left-pics>figure{
+    flex: 0 0 100%;
+}
+.main-top-right{
+    width: 28vw;
+    height: 100%;
+}
+.main-top-right-title{
+    line-height: 12vw;
+    font-size: 10vw;
+    text-align: center;
+}
+.main-top-right-cont{
+    padding-left: 2vw ;
+}
+.main-top-right-cont>li{
+    margin-bottom: 3vw;
+    list-style: disc;
+    font-size: 1.2vw;
+    font-weight:bold;
+}
+.main-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-bottom-card{
+    margin-top: 2vw;
+    flex-shrink: 0;
+    width: 28vw;
+    height: 30vw;
+}
+.main-bottom-card-pic{
+    text-align:center
+    width: 25vw;
+    height: 25vw;
+}
+.main-bottom-card-desc{
+    text-align: center;
+    height: 9vw;
+    line-height: 5vw;
+    font-size: 1.4vw;
+}
